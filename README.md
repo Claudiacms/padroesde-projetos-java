@@ -9,13 +9,9 @@ Facade
 
 package one.digitalinnovation.gof.singleton;
 
-/**
  * Singleton "Lazy Holder".
- * 
- * @see <a href="https://stackoverflow.com/a/24018148">Referencia</a>
- * 
- * @author falvojr
- */
+<a href="https://stackoverflow.com/a/24018148">Referencia</a>
+
 public class SingletonLazyHolder {
 
 	private static class InstanceHolder {
@@ -31,7 +27,6 @@ public class SingletonLazyHolder {
 	}
 }
 
- */
 public class SingletonLazy {
 
 	private static SingletonLazy instancia;
@@ -49,9 +44,7 @@ public class SingletonLazy {
 }
 
 * Singleton "apressado".
- * 
- * @author falvojr
- */
+
 public class SingletonEager {
 
 	private static SingletonEager instancia = new SingletonEager();
